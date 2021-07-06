@@ -1,0 +1,3 @@
+service { 
+  "OData_to_SAC.db.calcView::cv_metadinamica_planejada" as "metadinamica_planejada" keys ("DATA_BASE");
+  }

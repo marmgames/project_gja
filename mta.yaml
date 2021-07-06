@@ -1,0 +1,73 @@
+ID: OData_to_SAC
+_schema-version: '2.1'
+description: export data as OData
+version: 0.0.1
+modules:
+  - name: db
+    type: hdb
+    path: db
+    requires:
+      - name: hdi_db
+        properties:
+          TARGET_CONTAINER: '~{hdi-container-name}'
+      - name: cross-container-service-1
+        group: SERVICE_REPLACEMENTS
+        properties:
+          key: ServiceName_1
+          service: '~{the-service-name}'
+  - name: web
+    type: html5
+    path: web
+    parameters:
+      disk-quota: 512M
+      memory: 256M
+    build-parameters:
+      builder: grunt
+    requires:
+      - name: uaa_OData_to_SAC
+      - name: xsjs_api
+        group: destinations
+        properties:
+          name: xsjs_api
+          url: '~{url}'
+          forwardAuthToken: false
+      - name: dest_OData_to_SAC
+  - name: xsjs
+    type: nodejs
+    path: xsjs
+    provides:
+      - name: xsjs_api
+        properties:
+          url: '${default-url}'
+    requires:
+      - name: hdi_db
+      - name: uaa_OData_to_SAC
+      - name: db
+      - name: dest_OData_to_SAC
+      - name: cross-container-service-1
+        group: SERVICE_REPLACEMENTS
+        properties:
+          key: ServiceName_1
+          service: '~{the-service-name}'
+resources:
+  - name: hdi_db
+    properties:
+      hdi-container-name: ODatatoSAC-hdidb-S0017621138-worksDjtL8Drge4m0YuD1
+    type: com.sap.xs.hdi-container
+  - name: uaa_OData_to_SAC
+    parameters:
+      path: ./xs-security.json
+      service-plan: application
+      service: xsuaa
+    type: org.cloudfoundry.managed-service
+  - name: dest_OData_to_SAC
+    parameters:
+      service-plan: lite
+      service: destination
+    type: org.cloudfoundry.managed-service
+  - name: cross-container-service-1
+    parameters:
+      service-name: user_provider_scp_conn
+    properties:
+      the-service-name: '${service-name}'
+    type: org.cloudfoundry.existing-service

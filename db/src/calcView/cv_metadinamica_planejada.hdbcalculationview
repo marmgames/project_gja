@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="OData_to_SAC.db.calcView::cv_metadinamica_planejada" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="cv_metadinamica_planejada"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="OData_to_SAC.db.sinonimos::VW_METADINAMICA_PLANEJADA">
+    <resourceUri>OData_to_SAC.db.sinonimos::VW_METADINAMICA_PLANEJADA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="OData_to_SAC.db.sinonimos::VW_METADINAMICA_PLANEJADA" filterExpressionLanguage="SQL">
+  <attributes>
+    <attribute id="DATA_BASE" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATA_BASE"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DATA_BASE"/>
+    </attribute>
+    <attribute id="DATA_MOVIMENTO" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DATA_MOVIMENTO"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DATA_MOVIMENTO"/>
+    </attribute>
+    <attribute id="MES" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MES"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="MES"/>
+    </attribute>
+    <attribute id="NO_DIA_UTIL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NO_DIA_UTIL"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="NO_DIA_UTIL"/>
+    </attribute>
+    <attribute id="NOVO_DIA_UTIL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NOVO_DIA_UTIL"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="NOVO_DIA_UTIL"/>
+    </attribute>
+    <attribute id="MESANO_MMYYYY" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MESANO_MMYYYY"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="MESANO_MMYYYY"/>
+    </attribute>
+    <attribute id="MESANO_MMYYYY_445" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MESANO_MMYYYY_445"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="MESANO_MMYYYY_445"/>
+    </attribute>
+    <attribute id="DS_GERENCIA_COMERCIAL" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_GERENCIA_COMERCIAL"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_GERENCIA_COMERCIAL"/>
+    </attribute>
+    <attribute id="DS_GERENCIA_VENDAS" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_GERENCIA_VENDAS"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_GERENCIA_VENDAS"/>
+    </attribute>
+    <attribute id="DS_SUPERVISOR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_SUPERVISOR"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_SUPERVISOR"/>
+    </attribute>
+    <attribute id="DS_ROTA" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_ROTA"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_ROTA"/>
+    </attribute>
+    <attribute id="DS_SUBCANAL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_SUBCANAL"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_SUBCANAL"/>
+    </attribute>
+    <attribute id="NM_NOME_FANTASIA" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NM_NOME_FANTASIA"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="NM_NOME_FANTASIA"/>
+    </attribute>
+    <attribute id="DS_PRODUTO" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_PRODUTO"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_PRODUTO"/>
+    </attribute>
+    <attribute id="DS_MARCA" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_MARCA"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_MARCA"/>
+    </attribute>
+    <attribute id="DS_TAMANHO" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_TAMANHO"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_TAMANHO"/>
+    </attribute>
+    <attribute id="DS_SABOR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_SABOR"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_SABOR"/>
+    </attribute>
+    <attribute id="DS_GRUPO_ESPECIE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DS_GRUPO_ESPECIE"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DS_GRUPO_ESPECIE"/>
+    </attribute>
+    <attribute id="VERSAO_BP" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSAO_BP"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="VERSAO_BP"/>
+    </attribute>
+    <attribute id="CONTROLE_BI" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONTROLE_BI"/>
+      <keyMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="CONTROLE_BI"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes>
+    <calculatedAttribute id="DATA_BASE_DIA" order="42" semanticType="empty" displayAttribute="false" attributeHierarchyActive="false">
+      <keyCalculation datatype="NVARCHAR" expressionLanguage="SQL" length="2">
+        <formula>RIGHT(&quot;DATA_BASE&quot;, 2)</formula>
+      </keyCalculation>
+    </calculatedAttribute>
+  </calculatedAttributes>
+  <baseMeasures>
+    <measure id="ANO" order="8" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="ANO"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="ANO"/>
+    </measure>
+    <measure id="MES_CHAVE" order="9" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="MES_CHAVE"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="MES_CHAVE"/>
+    </measure>
+    <measure id="CD_CLIENTE" order="13" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="CD_CLIENTE"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="CD_CLIENTE"/>
+    </measure>
+    <measure id="CD_PRODUTO" order="17" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="CD_PRODUTO"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="CD_PRODUTO"/>
+    </measure>
+    <measure id="ID_CLIENTE" order="23" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="ID_CLIENTE"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="ID_CLIENTE"/>
+    </measure>
+    <measure id="ID_PRODUTO" order="24" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="ID_PRODUTO"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="ID_PRODUTO"/>
+    </measure>
+    <measure id="CXUNITARIA_BP" order="25" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="CXUNITARIA_BP"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="CXUNITARIA_BP"/>
+    </measure>
+    <measure id="CAIXA_REAL_0" order="26" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="CAIXA_REAL_0"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="CAIXA_REAL_0"/>
+    </measure>
+    <measure id="MEDIA_6M" order="27" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="MEDIA_6M"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="MEDIA_6M"/>
+    </measure>
+    <measure id="PESO_CLIESPEC6M" order="28" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="PESO_CLIESPEC6M"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="PESO_CLIESPEC6M"/>
+    </measure>
+    <measure id="PESO_ESPECIE6M" order="29" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="PESO_ESPECIE6M"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="PESO_ESPECIE6M"/>
+    </measure>
+    <measure id="QTDE_CXUNITARIA3M" order="30" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="QTDE_CXUNITARIA3M"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="QTDE_CXUNITARIA3M"/>
+    </measure>
+    <measure id="MEDIA_3M" order="31" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="MEDIA_3M"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="MEDIA_3M"/>
+    </measure>
+    <measure id="PESO_CLIESPEC3M" order="32" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="PESO_CLIESPEC3M"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="PESO_CLIESPEC3M"/>
+    </measure>
+    <measure id="PESO_ESPECIE3M" order="33" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="PESO_ESPECIE3M"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="PESO_ESPECIE3M"/>
+    </measure>
+    <measure id="PERCENT_REAL_DIA" order="35" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="PERCENT_REAL_DIA"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="PERCENT_REAL_DIA"/>
+    </measure>
+    <measure id="REAL_ANTERIOR" order="36" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="REAL_ANTERIOR"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="REAL_ANTERIOR"/>
+    </measure>
+    <measure id="TENDENCIA_DINAMICA" order="37" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="TENDENCIA_DINAMICA"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="TENDENCIA_DINAMICA"/>
+    </measure>
+    <measure id="META_RECUPERAVEL" order="38" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="META_RECUPERAVEL"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="META_RECUPERAVEL"/>
+    </measure>
+    <measure id="DATA_PROCESSAMENTO" order="40" aggregationType="min" measureType="simple">
+      <descriptions defaultDescription="DATA_PROCESSAMENTO"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="DATA_PROCESSAMENTO"/>
+    </measure>
+    <measure id="VALOR_DIF_DIA_UTIL" order="41" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="VALOR_DIF_DIA_UTIL"/>
+      <measureMapping columnObjectName="VW_METADINAMICA_PLANEJADA" columnName="VALOR_DIF_DIA_UTIL"/>
+    </measure>
+  </baseMeasures>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+  <localDimensions/>
+
+  <filter>&quot;DATA_BASE_DIA&quot;&gt;='01' and &quot;DATA_BASE_DIA&quot;&lt;='31' </filter>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

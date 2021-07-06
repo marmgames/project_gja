@@ -1,0 +1,188 @@
+{
+  "OData_to_SAC.db.sinonimos::TB_FAT_0_MOV_VENDA": {
+    "target": {
+      "object": "TB_FAT_0_MOV_VENDA",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_FAT_0_MOV_LOGISTICA": {
+    "target": {
+      "object": "TB_FAT_0_MOV_LOGISTICA",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_FAT_0_MOV_CARRETA": {
+    "target": {
+      "object": "TB_FAT_0_MOV_CARRETA",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_FAT_0_MOV_PEDIDO": {
+    "target": {
+      "object": "TB_FAT_0_MOV_PEDIDO",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_FLESS_0_AGRUPADOR": {
+    "target": {
+      "object": "TB_FLESS_0_AGRUPADOR",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_FLESS_0_COMODATO": {
+    "target": {
+      "object": "TB_FLESS_0_COMODATO",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_FLESS_0_META_ANO": {
+    "target": {
+      "object": "TB_FLESS_0_META_ANO",
+      "schema": "DW_COMERCIAL_META"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_AGRUPADOR": {
+    "target": {
+      "object": "TB_DIM_0_AGRUPADOR",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_CLIENTE": {
+    "target": {
+      "object": "TB_DIM_0_CLIENTE",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_COMODATO": {
+    "target": {
+      "object": "TB_DIM_0_COMODATO",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_EMPRESA": {
+    "target": {
+      "object": "TB_DIM_0_EMPRESA",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_FILIAL": {
+    "target": {
+      "object": "TB_DIM_0_FILIAL",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_FORNECEDOR": {
+    "target": {
+      "object": "TB_DIM_0_FORNECEDOR",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_MOTORISTA": {
+    "target": {
+      "object": "TB_DIM_0_MOTORISTA",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_NOTAFISCAL": {
+    "target": {
+      "object": "TB_DIM_0_NOTAFISCAL",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_PEDIDO": {
+    "target": {
+      "object": "TB_DIM_0_PEDIDO",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_PERGUNTA": {
+    "target": {
+      "object": "TB_DIM_0_PERGUNTA",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_PRODUTO": {
+    "target": {
+      "object": "TB_DIM_0_PRODUTO",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_ROTA": {
+    "target": {
+      "object": "TB_DIM_0_ROTA",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_TEMPO": {
+    "target": {
+      "object": "TB_DIM_0_TEMPO",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_TABELA_PRECO": {
+    "target": {
+      "object": "TB_DIM_0_TABELA_PRECO",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_VEICULO": {
+    "target": {
+      "object": "TB_DIM_0_VEICULO",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_DIM_0_VENDEDOR": {
+    "target": {
+      "object": "TB_DIM_0_VENDEDOR",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+  "OData_to_SAC.db.sinonimos::TB_GEO_LOC_FILIAL": {
+    "target": {
+      "object": "TB_GEO_LOC_FILIAL",
+      "schema": "DW_COMERCIAL"
+    }
+  },
+	  "OData_to_SAC.db.sinonimos::TB_FLESS_0_ESTOQUE_ONLINE": {
+    "target": {
+      "object": "TB_FLESS_0_ESTOQUE_ONLINE",
+      "schema": "DW_COMERCIAL_META"
+	}
+  },
+  	  "OData_to_SAC.db.sinonimos::VW_METADINAMICA_PLANEJADA": {
+    "target": {
+      "object": "VW_METADINAMICA_PLANEJADA",
+      "schema": "DW_COMERCIAL_META"
+	}
+  },
+	  "OData_to_SAC.db.sinonimos::TB_AUX_0_PREVISAO_DIA": {
+    "target": {
+      "object": "TB_AUX_0_PREVISAO_DIA",
+      "schema": "DW_COMERCIAL_META"
+    }
+  },
+	  "OData_to_SAC.db.sinonimos::TB_FAT_0_FIN_MOV_RECO": {
+    "target": {
+      "object": "TB_FAT_0_FIN_MOV_RECO",
+      "schema": "DW_FINANCEIRO"
+	}
+  },
+	  "OData_to_SAC.db.sinonimos::TB_DIM_0_FIN_CENTROCUSTO": {
+    "target": {
+      "object": "TB_DIM_0_FIN_CENTROCUSTO",
+      "schema": "DW_FINANCEIRO"
+	}
+  },
+	  "OData_to_SAC.db.sinonimos::TB_DIM_0_FIN_FILIAL": {
+    "target": {
+      "object": "TB_DIM_0_FIN_FILIAL",
+      "schema": "DW_FINANCEIRO"
+	}
+  },
+	  "OData_to_SAC.db.sinonimos::TB_DIM_0_FIN_PLANOCONTA": {
+    "target": {
+      "object": "TB_DIM_0_FIN_PLANOCONTA",
+      "schema": "DW_FINANCEIRO"
+	}
+  }
+}

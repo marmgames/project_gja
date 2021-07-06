@@ -1,0 +1,9 @@
+{
+  "OData_to_SAC.db.sinonimos::TESTE": {
+    "target": {
+      "object": "TESTE",
+      "schema": "ODATA_TO_SAC_HDI_DB_2_1",
+      "revalidate": true
+    }
+  }
+}  

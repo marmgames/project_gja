@@ -1,0 +1,14 @@
+{
+    "user_provider_scp_conn": {
+        "object_owner": {
+            "roles": [
+                "hdi::external_access_g"
+            ]
+        },
+        "application_user": {
+            "roles": [
+                "hdi::external_access"
+            ]
+        }
+    }
+}

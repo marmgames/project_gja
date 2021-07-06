@@ -1,0 +1,12 @@
+{
+    "role": {
+        "name": "OData_to_SAC.db.grants::analytics",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT"
+                ]
+            }
+        ]
+    }
+}

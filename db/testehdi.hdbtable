@@ -1,0 +1,3 @@
+COLUMN TABLE "OData_to_SAC.db::testehdi" (
+      "ID" INTEGER,
+      "descr" NVARCHAR(10) )
